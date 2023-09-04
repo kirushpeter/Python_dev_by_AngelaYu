@@ -1,0 +1,18 @@
+
+name = input(print("What is your name?"))
+
+Year_of_birth = int(input(print("What is your year of birth?: ")))
+
+
+Today = 2023
+
+
+
+No_year = Today - Year_of_birth
+
+
+
+
+
+
+print("Hello " + str(name) + " you are " + str(No_year) + " years old.")

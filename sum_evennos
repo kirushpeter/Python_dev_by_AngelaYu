@@ -1,0 +1,26 @@
+'''
+
+# method one using for loop
+
+Sum = 0
+
+for nums in range(1, 101, 2):
+
+    Sum += nums
+
+print(Sum)
+'''
+# method two using modulo
+
+Sum = 0
+
+
+for nums in range(1, 101):
+
+    if nums % 2 == 0 :
+
+        Sum += nums
+
+print(str(Sum) + " " + "me")
+
+
